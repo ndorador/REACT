@@ -1,5 +1,3 @@
-// src/components/ItemListContainer.jsx
-
 const ItemListContainer = ({ greeting }) => {
   return (
     <div style={{ padding: '2rem' }}>

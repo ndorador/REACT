@@ -1,5 +1,3 @@
-// src/components/NavBar.jsx
-
 import CartWidget from './CartWidget.jsx';
 
 const NavBar = () => {

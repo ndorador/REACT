@@ -1,5 +1,3 @@
-// src/App.jsx
-
 import NavBar from "./components/NavBar.jsx";
 import ItemListContainer from "./components/ItemListContainer.jsx";
 

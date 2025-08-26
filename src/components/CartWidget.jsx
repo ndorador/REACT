@@ -1,5 +1,3 @@
-// src/components/CartWidget.jsx
-
 const CartWidget = () => {
   return (
     <div>
