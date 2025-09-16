@@ -1,0 +1,56 @@
+.ItemCard {
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ItemCard:hover {
+  transform: translateY(-5px);
+}
+
+.ItemCard header {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.ItemCard header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.ItemCard section {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.ItemCard section p {
+  margin: 0.5rem 0;
+}
+
+.ItemCard footer {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+.ItemFooterLink {
+  background-color: #e05e2b;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.ItemFooterLink:hover {
+  background-color: #f8a232;
+}

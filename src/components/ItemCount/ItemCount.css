@@ -1,0 +1,37 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.Controls .Number {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.Button {
+  background-color: #e05e2b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.Button:hover {
+  background-color: #f8a232;
+}
+
+.Button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
